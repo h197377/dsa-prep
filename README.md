@@ -27,6 +27,8 @@ Each problem folder includes:
 |-----|-------|-------|----------|
 | 1 | Two Sum | Arrays | [Link](arrays/001-two-sum) |
 | 20 | Valid Paren | Stack | [Link](stack/020-valid-paren) |
+| 21 | Merged Sorted Llist | Linked_list | [Link](linked_list/021-merged-sorted-llist) |
+| 121 | Buy Stock | Arrays | [Link](arrays/121-buy-stock) |
 ---
 
 Good Luck!

@@ -16,17 +16,18 @@ An input string is valid if:
 ---
 
 ## Example
-- Normal
-**Input**: s = ()
-**Output**: True
+### Normal
 
-- Edge
-**Input**: s = [[[[[[[[[[[[[[())]]]]]]]]]]]]]]
-**Output**: True
+   - Input: s = ()
+   - Output: True
 
-- Invalid
-**Input**: s = 1559
-**Output**: False
+### Edge
+   - Input: s = [[[[[[[[[[[[[[())]]]]]]]]]]]]]]
+   - Output: True
+
+### Invalid
+   - Input: s = 1559
+   - Output: False
 ---
 
 ## Approach
