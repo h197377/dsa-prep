@@ -26,6 +26,21 @@ Each problem folder includes:
 | #   | Title | Topic | Solution |
 |-----|-------|-------|----------|
 | 1 | Two Sum | Arrays | [Link](arrays/001-two-sum) |
+| 20 | Valid Paren | Stack | [Link](stack/020-valid-paren) |
 ---
 
 Good Luck!
+
+---
+
+To add a new problem holder
+
+```
+python3 new_problem.py arrays 1 two sum
+```
+
+To auto update README to link it
+
+```
+python3 update_readme.py
+```

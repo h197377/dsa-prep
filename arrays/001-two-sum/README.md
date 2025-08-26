@@ -1,4 +1,4 @@
-# 0001. Two Sum
+# 001. Two Sum
 
 **Link**: [LeetCode - Two Sum](https://leetcode.com/problems/two-sum/)
 

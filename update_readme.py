@@ -4,30 +4,27 @@ import re
 # Root README file
 README_FILE = "README.md"
 
-# Problem directories live inside topic folders
-TOPICS = ["arrays", "linked_list", "dp", "graphs", "trees", "backtracking", "heap", "binary_search", "sliding_window"]
-
-def extract_problem_info(path, folder_name):
+def extract_problem_info(topic, folder_name):
     """
     Extracts problem number and title from folder name like '001-two-sum'
     Returns (#, title, topic, relative_link)
     """
-    match = re.match(r"(\d+)-(.+)", folder_name)
+    match = re.match(r"(\d{3})-(.+)", folder_name)  # 3-digit padded number
     if not match:
         return None
     
     number = int(match.group(1))
     title = match.group(2).replace("-", " ").title()
-    topic = os.path.basename(path)
-    relative_link = f"{path}/{folder_name}"
+    relative_link = f"{topic}/{folder_name}"
     return (number, title, topic, relative_link)
 
 
 def gather_problems():
     problems = []
-    for topic in TOPICS:
-        if not os.path.exists(topic):
+    for topic in os.listdir("."):
+        if not os.path.isdir(topic) or topic.startswith(".") or topic == "__pycache__":
             continue
+        # Scan topic folders
         for folder in os.listdir(topic):
             folder_path = os.path.join(topic, folder)
             if os.path.isdir(folder_path):
