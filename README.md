@@ -28,9 +28,18 @@ Each problem folder includes:
 | 1 | Two Sum | Arrays | [Link](arrays/001-two-sum) |
 | 20 | Valid Paren | Stack | [Link](stack/020-valid-paren) |
 | 21 | Merged Sorted Llist | Linked_list | [Link](linked_list/021-merged-sorted-llist) |
+| 70 | Climbing Stairs | Dp | [Link](dp/070-climbing-stairs) |
+| 110 | Balanced Binary Tree | Bst | [Link](bst/110-balanced-binary-tree) |
 | 121 | Buy Stock | Arrays | [Link](arrays/121-buy-stock) |
 | 125 | Valid Palindrome | String | [Link](string/125-valid-palindrome) |
+| 141 | Has Cycle | Linked_list | [Link](linked_list/141-has-cycle) |
 | 226 | Invert Bst | Bst | [Link](bst/226-invert-bst) |
+| 232 | Implement Queue With Stacks | Stack | [Link](stack/232-implement-queue-with-stacks) |
+| 235 | Lowest Common Ancestor Bst | Bst | [Link](bst/235-lowest-common-ancestor-bst) |
+| 278 | First Bad Version | Binary_search | [Link](binary_search/278-first-bad-version) |
+| 383 | Ransom Note | String | [Link](string/383-ransom-note) |
+| 704 | Binary Search | Binary_search | [Link](binary_search/704-binary-search) |
+| 733 | Floodfill | Dfs | [Link](dfs/733-floodfill) |
 ---
 
 Good Luck!

@@ -20,7 +20,7 @@ def create_problem(topic, number, name):
 ---
 
 ## Problem
-(Write the problem statement here.)
+description
 
 ---
 
@@ -41,21 +41,21 @@ def create_problem(topic, number, name):
 
 ## Approach
 1. **Brute Force**:  
-   - (describe)  
+   - (describe)
 
 2. **Optimal Solution**:  
-   -   
+   - 
 
 ---
 
 ## Complexity
-- **Time**: O(?)  
-- **Space**: O(?)  
+- **Time**: O(?)
+- **Space**: O(?)
 
 ---
 
 ## Pitfalls
--   
+- 
 
 ---
 """
