@@ -40,11 +40,11 @@ description
 ---
 
 ## Approach
-1. **Brute Force**:  
-   - (describe)
+1. **Brute Force**:
+    - (describe)
 
-2. **Optimal Solution**:  
-   - 
+2. **Optimal Solution**:
+    - 
 
 ---
 
