@@ -29,6 +29,8 @@ Each problem folder includes:
 | 20 | Valid Paren | Stack | [Link](stack/020-valid-paren) |
 | 21 | Merged Sorted Llist | Linked_list | [Link](linked_list/021-merged-sorted-llist) |
 | 121 | Buy Stock | Arrays | [Link](arrays/121-buy-stock) |
+| 125 | Valid Palindrome | String | [Link](string/125-valid-palindrome) |
+| 226 | Invert Bst | Bst | [Link](bst/226-invert-bst) |
 ---
 
 Good Luck!
