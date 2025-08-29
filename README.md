@@ -29,6 +29,7 @@ Each problem folder includes:
 | 20 | Valid Paren | Stack | [Link](stack/020-valid-paren) |
 | 21 | Merged Sorted Llist | Linked_list | [Link](linked_list/021-merged-sorted-llist) |
 | 53 | Maximum Subarray | Arrays | [Link](arrays/053-maximum-subarray) |
+| 57 | Insert Interval | Arrays | [Link](arrays/057-insert-interval) |
 | 67 | Add Binary | String | [Link](string/067-add-binary) |
 | 70 | Climbing Stairs | Dp | [Link](dp/070-climbing-stairs) |
 | 104 | Max Depth Of Binary Tree | Bst | [Link](bst/104-max-depth-of-binary-tree) |
@@ -42,6 +43,7 @@ Each problem folder includes:
 | 226 | Invert Bst | Bst | [Link](bst/226-invert-bst) |
 | 232 | Implement Queue With Stacks | Stack | [Link](stack/232-implement-queue-with-stacks) |
 | 235 | Lowest Common Ancestor Bst | Bst | [Link](bst/235-lowest-common-ancestor-bst) |
+| 238 | Product Of Arrays Except Self | Arrays | [Link](arrays/238-product-of-arrays-except-self) |
 | 278 | First Bad Version | Binary_search | [Link](binary_search/278-first-bad-version) |
 | 322 | Coin Change | Dp | [Link](dp/322-coin-change) |
 | 383 | Ransom Note | String | [Link](string/383-ransom-note) |
