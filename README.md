@@ -26,6 +26,7 @@ Each problem folder includes:
 | #   | Title | Topic | Solution |
 |-----|-------|-------|----------|
 | 1 | Two Sum | Arrays | [Link](arrays/001-two-sum) |
+| 3 | Longest Substring Without Repeats | String | [Link](string/003-longest-substring-without-repeats) |
 | 20 | Valid Paren | Stack | [Link](stack/020-valid-paren) |
 | 21 | Merged Sorted Llist | Linked_list | [Link](linked_list/021-merged-sorted-llist) |
 | 53 | Maximum Subarray | Arrays | [Link](arrays/053-maximum-subarray) |
@@ -48,10 +49,12 @@ Each problem folder includes:
 | 322 | Coin Change | Dp | [Link](dp/322-coin-change) |
 | 383 | Ransom Note | String | [Link](string/383-ransom-note) |
 | 409 | Longest Palindrome | String | [Link](string/409-longest-palindrome) |
+| 542 | 01 Matrix | Dfs | [Link](dfs/542-01-matrix) |
 | 543 | Diameter Of Binary Tree | Bst | [Link](bst/543-diameter-of-binary-tree) |
 | 704 | Binary Search | Binary_search | [Link](binary_search/704-binary-search) |
 | 733 | Floodfill | Dfs | [Link](dfs/733-floodfill) |
 | 876 | Middle Of The Linkedlist | Linked_list | [Link](linked_list/876-middle-of-the-linkedlist) |
+| 973 | K Closest Points | Heap | [Link](heap/973-k-closest-points) |
 ---
 
 Good Luck!
