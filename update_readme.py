@@ -49,10 +49,9 @@ def update_readme(problems):
     # Count total problems
     total_count = len(problems)
 
-    # Insert/update total count (look for "### ✅ Problems Solved: X")
-    if re.search(r"(### ✅ Problems Solved: )\d+", content):
+    if re.search(r"(### ✅ Problems Solved: )(\*{0,3}\d+\*{0,3})", content):
         new_content = re.sub(
-            r"(### ✅ Problems Solved: )\d+",
+            r"(### ✅ Problems Solved: )(\*{0,3}\d+\*{0,3})",
             f"\\1***{total_count}***",
             content,
         )
@@ -60,7 +59,7 @@ def update_readme(problems):
         # If not present, insert it above the problem index section
         new_content = re.sub(
             r"(## 📑 Problem Index)",
-            f"### ✅ Problems Solved: {total_count}\n\n\\1",
+            f"### ✅ Problems Solved: ***{total_count}***\n\n\\1",
             content,
         )
 

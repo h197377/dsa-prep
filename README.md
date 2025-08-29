@@ -21,7 +21,8 @@ Each problem folder includes:
 
 ---
 
-### ✅ Problems Solved: 30
+
+### ✅ Problems Solved: ***30***
 
 ## 📑 Problem Index
 
