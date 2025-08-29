@@ -46,17 +46,35 @@ def update_readme(problems):
         rows.append(f"| {num} | {title} | {topic.capitalize()} | [Link]({link}) |")
     table = header + "\n".join(rows)
 
+    # Count total problems
+    total_count = len(problems)
+
+    # Insert/update total count (look for "### ✅ Problems Solved: X")
+    if re.search(r"(### ✅ Problems Solved: )\d+", content):
+        new_content = re.sub(
+            r"(### ✅ Problems Solved: )\d+",
+            f"\\1***{total_count}***",
+            content,
+        )
+    else:
+        # If not present, insert it above the problem index section
+        new_content = re.sub(
+            r"(## 📑 Problem Index)",
+            f"### ✅ Problems Solved: {total_count}\n\n\\1",
+            content,
+        )
+
     # Replace Problem Index section
     new_content = re.sub(
         r"(## 📑 Problem Index\n\n)([\s\S]*?)(\n---)",
         f"\\1{table}\\3",
-        content,
+        new_content,
     )
 
     # Write back
     with open(README_FILE, "w") as f:
         f.write(new_content)
-    print("✅ README updated!")
+    print(f"✅ README updated! ({total_count} problems solved)")
 
 
 if __name__ == "__main__":
