@@ -22,7 +22,7 @@ Each problem folder includes:
 ---
 
 
-### ✅ Problems Solved: ***41***
+### ✅ Problems Solved: ***44***
 
 ## 📑 Problem Index
 
@@ -34,7 +34,10 @@ Each problem folder includes:
 | 20 | Valid Paren | Stack | [Link](stack/020-valid-paren) |
 | 21 | Merged Sorted Llist | Linked_list | [Link](linked_list/021-merged-sorted-llist) |
 | 33 | Search In Sorted Array | Binary_search | [Link](binary_search/033-search-in-sorted-array) |
+| 39 | Combination Sum | Backtracking | [Link](backtracking/039-combination-sum) |
+| 46 | Permutations | Backtracking | [Link](backtracking/046-permutations) |
 | 53 | Maximum Subarray | Arrays | [Link](arrays/053-maximum-subarray) |
+| 56 | Merge Intervals | Arrays | [Link](arrays/056-merge-intervals) |
 | 57 | Insert Interval | Arrays | [Link](arrays/057-insert-interval) |
 | 67 | Add Binary | String | [Link](string/067-add-binary) |
 | 70 | Climbing Stairs | Dp | [Link](dp/070-climbing-stairs) |
