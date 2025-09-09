@@ -22,7 +22,7 @@ Each problem folder includes:
 ---
 
 
-### ✅ Problems Solved: ***44***
+### ✅ Problems Solved: ***48***
 
 ## 📑 Problem Index
 
@@ -41,6 +41,7 @@ Each problem folder includes:
 | 57 | Insert Interval | Arrays | [Link](arrays/057-insert-interval) |
 | 67 | Add Binary | String | [Link](string/067-add-binary) |
 | 70 | Climbing Stairs | Dp | [Link](dp/070-climbing-stairs) |
+| 75 | Sort Colors | Arrays | [Link](arrays/075-sort-colors) |
 | 98 | Validate Binary Search Tree | Bst | [Link](bst/098-validate-binary-search-tree) |
 | 102 | Binary Tree Level Order Traversal | Bst | [Link](bst/102-binary-tree-level-order-traversal) |
 | 104 | Max Depth Of Binary Tree | Bst | [Link](bst/104-max-depth-of-binary-tree) |
@@ -60,6 +61,7 @@ Each problem folder includes:
 | 226 | Invert Bst | Bst | [Link](bst/226-invert-bst) |
 | 232 | Implement Queue With Stacks | Stack | [Link](stack/232-implement-queue-with-stacks) |
 | 235 | Lowest Common Ancestor Bst | Bst | [Link](bst/235-lowest-common-ancestor-bst) |
+| 236 | Lowest Common Ancestor Of Binary Tree | Bst | [Link](bst/236-lowest-common-ancestor-of-binary-tree) |
 | 238 | Product Of Arrays Except Self | Arrays | [Link](arrays/238-product-of-arrays-except-self) |
 | 278 | First Bad Version | Binary_search | [Link](binary_search/278-first-bad-version) |
 | 322 | Coin Change | Dp | [Link](dp/322-coin-change) |
@@ -68,9 +70,11 @@ Each problem folder includes:
 | 542 | 01 Matrix | Dfs | [Link](dfs/542-01-matrix) |
 | 543 | Diameter Of Binary Tree | Bst | [Link](bst/543-diameter-of-binary-tree) |
 | 704 | Binary Search | Binary_search | [Link](binary_search/704-binary-search) |
+| 721 | Accounts Merge | Dfs | [Link](dfs/721-accounts-merge) |
 | 733 | Floodfill | Dfs | [Link](dfs/733-floodfill) |
 | 876 | Middle Of The Linkedlist | Linked_list | [Link](linked_list/876-middle-of-the-linkedlist) |
 | 973 | K Closest Points | Heap | [Link](heap/973-k-closest-points) |
+| 981 | Time Based Key Value Store | Arrays | [Link](arrays/981-time-based-key-value-store) |
 | 994 | Rotting Oranges | Dfs | [Link](dfs/994-rotting-oranges) |
 ---
 
